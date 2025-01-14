@@ -11,6 +11,14 @@
 #include <string>    // std::string, std::getline
 #include <vector>    // std::vector
 
+// prob 1
+void compare(int 1, int 2)
+{
+    if(int 1 > int 2 || )
+    int greaterNum =
+    std::cout << ""
+}
+
 int main()
 {
     // Complete your homework here
