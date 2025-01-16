@@ -11,18 +11,38 @@
 #include <string>    // std::string, std::getline
 #include <vector>    // std::vector
 
-// prob 1
-void compare(int 1, int 2)
+ // prob 1
+void compare(int a, int b)
 {
-    if(int 1 > int 2 || )
-    int greaterNum =
-    std::cout << ""
+    if(a > b)
+    {
+      
+        std::cout << a << " is larger than " << b << std::endl;
+    }
+
+    if(a < b)
+    {
+        std::cout << a << " is smaller than " << b << std::endl;
+    }
+
+    if(a = b)
+    {
+        std::cout << a << " and " << b << " are equal " << std::endl;
+    }
+
+ 
 }
 
 int main()
 {
     // Complete your homework here
+    // prob 1
 
+    int num1;
+    int num2;
+    std::cout << "enter two numbers\n";
+    std::cin >> num1 >> num2;
+    compare(num1, num2);
     
     return 0;
 }
